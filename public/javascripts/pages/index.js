@@ -1,5 +1,5 @@
-if( window.location.href.indexOf('www.') == -1 && window.location.href.indexOf('busynoise') > -1 ) 
-  window.location= window.location.href.replace('http://', 'http://www.'); 
+// if( window.location.href.indexOf('www.') == -1 && window.location.href.indexOf('busynoise') > -1 ) 
+//  window.location= window.location.href.replace('http://', 'http://www.'); 
 
 $(window).addEvent('load', function(){
 
