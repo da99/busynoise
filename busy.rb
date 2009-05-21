@@ -36,7 +36,7 @@ end
 
 
 get '/' do
-  File.read( File.expand_path('./public/index.html') )
+  redirect "/egg"
 end
 
 get "/egg" do
