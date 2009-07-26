@@ -112,7 +112,7 @@ form {
 #add_stuff {
   visibility: hidden;
   font-family: helvetica, arial, sans-serif;
-  padding: 10px 0 20px 0; }
+  padding: 10px 0 0px 0; }
   #add_stuff ul.binder {
     width: 780px;
     overflow: auto;
@@ -429,8 +429,7 @@ form {
   
 #the_closing {
   text-align: center;
-  margin-top: 13px;
   padding: 15px 0;
   background: #ff9;
-  display: none;
+  font-family: sans-serif;
 }  
