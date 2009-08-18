@@ -128,6 +128,7 @@ var EggClock = {
 
                                               },
   cache_buzzer : function(){
+                                return true;
                                 if(this.storage_bin.length > 0)
                                   return false;  
                                 var player_html = (Browser.Engine.trident) ? 
