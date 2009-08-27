@@ -160,8 +160,8 @@ var EggClock = {
                           } else {
                           
                             player_html += '    <p>*';
-                            player_html += '      <object  type="application/x-shockwave-flash" data="/media/button_player/button/musicplayer_f6.swf?&autoplay=true&repeat=true&song_url=http://www.myeggtimer.com/media/beeping.mp3"  width="43"  height="20" >';
-                            player_html += '       <param name="movie"  value="/media/button_player/button/musicplayer_f6.swf?&autoplay=true&repeat=true&song_url=http://www.myeggtimer.com/media/beeping.mp3" />';
+                            player_html += '      <object  type="application/x-shockwave-flash" data="/media/button_player/button/musicplayer_f6.swf?&autoplay=true&repeat=true&song_url=/media/beeping.mp3"  width="43"  height="20" >';
+                            player_html += '       <param name="movie"  value="/media/button_player/button/musicplayer_f6.swf?&autoplay=true&repeat=true&song_url=/media/beeping.mp3" />';
                             player_html += '       <img src="/media/loading.gif" width="43" height="11" alt="*" />';
                             player_html += '      </object>';
                             player_html += '    </p>';
