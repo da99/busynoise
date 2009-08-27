@@ -155,7 +155,7 @@ var EggClock = {
 
                           if(Browser.Engine.trident) {
 
-                            player_html = '* *<bgsound loop="25" SRC="http://www.myeggtimer.com/media/beeping.wav" />';
+                            player_html = '* *<bgsound loop="25" SRC="/media/beeping.wav" />';
 
                           } else {
                           
